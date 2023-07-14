@@ -1,9 +1,13 @@
 import '../css/cta.css'
+import { useState } from 'react'
 
 function Cta() {
 
+    const [count, setCount] = useState(1)
+
     function handleClick() {
-        alert('Congratulations! You are now subscribed to our Newsletter!!!')
+        setCount(count + 1)
+        alert('Congratulations! You are the subscriber number ' + count + ' on our Newsletter!!!')
     }
 
     return (
