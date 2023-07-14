@@ -6,9 +6,9 @@ function Profile(props) {
             <img src={props.img} alt={props.title} title={props.title} className='profile-img' />
             <h2 className='text-center my-3'>{props.title}</h2>
             <p className='profile-description'>
-                <bloquote className='bloquote fst-italic text-center px-3'>
+                <span className='bloquote fst-italic text-center px-3'>
                     "{props.description}"
-                </bloquote>
+                </span>
             </p>
         </div>
     )
