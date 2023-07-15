@@ -14,7 +14,7 @@ function SectionList() {
                             <ul>
                                 {
                                     listLeft.map(item =>
-                                        <li>{item}</li>    
+                                        <li key={item.key}>{item.value}</li>    
                                     )
                                 }
                             </ul>
@@ -26,7 +26,7 @@ function SectionList() {
                             <ul>
                                 {
                                     listRight.map(item =>
-                                        <li>{item}</li>    
+                                        <li key={item.key}>{item.value}</li>    
                                     )
                                 }
                             </ul>
