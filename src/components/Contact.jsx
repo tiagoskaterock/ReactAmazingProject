@@ -46,6 +46,16 @@ function Contact() {
 								onChange={handleChange}
 							/>
 						</label>
+
+						<label htmlFor="preference" className="form-label col-12">
+							Preference
+							<select value={inputs.preference} onChange={handleChange} className="form-control">
+								<option value="js">JavaScript</option>
+								<option value="php">PHP Hyper Text Preprocessor</option>
+								<option value="sql">Structured Query Language</option>
+								<option value="css">Cascade Style Sheet</option>
+							</select>
+						</label>
 					</div>
 						
 
