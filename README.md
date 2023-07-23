@@ -6,7 +6,7 @@
   </a>
 </p>
 
-<h2>An amazing website made in React</h2>
+<h2 align=""center">An amazing website made in React</h2>
 
 ![Website](public/img/1.png)
 ![Website](public/img/2.png)
